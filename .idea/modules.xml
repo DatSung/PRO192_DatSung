@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Basic/Basic.iml" filepath="$PROJECT_DIR$/Basic/Basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BeingLevingManagement/BeingLevingManagement.iml" filepath="$PROJECT_DIR$/BeingLevingManagement/BeingLevingManagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CircleManagement/CircleManagement.iml" filepath="$PROJECT_DIR$/CircleManagement/CircleManagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DemoThrow/DemoThrow.iml" filepath="$PROJECT_DIR$/DemoThrow/DemoThrow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DogForMoon/DogForMoon.iml" filepath="$PROJECT_DIR$/DogForMoon/DogForMoon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FPTU/FPTU.iml" filepath="$PROJECT_DIR$/FPTU/FPTU.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Fraction/Fraction.iml" filepath="$PROJECT_DIR$/Fraction/Fraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyToys/MyToys.iml" filepath="$PROJECT_DIR$/MyToys/MyToys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PRO192_DatSung.iml" filepath="$PROJECT_DIR$/.idea/PRO192_DatSung.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PetManagement/PetManagement.iml" filepath="$PROJECT_DIR$/PetManagement/PetManagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PetManagement_DatSung/PetManagement_DatSung.iml" filepath="$PROJECT_DIR$/PetManagement_DatSung/PetManagement_DatSung.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Workshop_1/Workshop_1.iml" filepath="$PROJECT_DIR$/Workshop_1/Workshop_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Workshop_2/Workshop_2.iml" filepath="$PROJECT_DIR$/Workshop_2/Workshop_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Workshop_3_All/Workshop_3_1/Workshop_3_1.iml" filepath="$PROJECT_DIR$/Workshop_3_All/Workshop_3_1/Workshop_3_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Workshop_3_All/Workshop_3_2/Workshop_3_2.iml" filepath="$PROJECT_DIR$/Workshop_3_All/Workshop_3_2/Workshop_3_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Workshop_3_PLus/Workshop_3_PLus.iml" filepath="$PROJECT_DIR$/Workshop_3_PLus/Workshop_3_PLus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Workshop_4/Workshop_4.iml" filepath="$PROJECT_DIR$/Workshop_4/Workshop_4.iml" />
+    </modules>
+  </component>
+</project>
