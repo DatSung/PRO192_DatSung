@@ -10,6 +10,7 @@ public class PetList extends ArrayList<Pet>{ //extends từ ArrayList<>
 
     //=> ta có thể dùng this trong Class này để chỉ mảng buffer đó
 
+
     public PetList(){
 
     }
@@ -30,9 +31,27 @@ public class PetList extends ArrayList<Pet>{ //extends từ ArrayList<>
     }
     public void sortById(){ //increasing sort
         this.sort(((o1, o2) -> Integer.compare(o1.getId(), o2.getId())));
+        //sort số thì như này sẽ từ nhỏ đến lớn
         display();
     }
     public void sortByName(){
         this.sort(((o1, o2) -> String.CASE_INSENSITIVE_ORDER.reversed().compare(o1.getName(), o2.getName())));
     }
+    public int findPetIndexById(int data_id){
+        for (int i = 0; i < this.size(); i++){
+            if(this.get(i).getId() == data_id) {
+                return i;
+            }
+        }
+        return -1;
+    }
+    public boolean removePetById(int data_id){
+        int index = findPetIndexById(data_id);
+        if (index >= 0) {
+            this.remove(index);
+            return true;
+        }
+        return false;
+    }
+
 }

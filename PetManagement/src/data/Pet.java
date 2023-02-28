@@ -1,11 +1,14 @@
 package data;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Scanner;
 
 public class Pet {
     private int id;
     private String name;
-    ArrayList <Service> serviceList = new ArrayList<>();
+    ArrayList<Service> serviceList = new ArrayList<>();
+    private int count = 0;
     public Pet(){
 
     }
@@ -14,13 +17,6 @@ public class Pet {
         this.name = name;
     }
     //Method
-    public void input(){
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Input id: ");
-        id = Integer.parseInt(sc.nextLine());
-        System.out.println("Enter name: ");
-        name = sc.nextLine().trim();
-    }
     public void output(){
         System.out.printf("|PET|%-4d|%10s|\n", id, name);
         System.out.println("Pet's services: ");
@@ -37,9 +33,23 @@ public class Pet {
     public boolean addUsedService(Service x){
         return serviceList.add(x);
     }
+    public void input(){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("id ");
+        id = Integer.parseInt(sc.nextLine());
+        System.out.println("name ");
+        name = sc.nextLine();
+    }
 
     public int getId() {
         return id;
+    }
+    public int getTotalMoney(){
+        int sum = 0;
+        for (Service x : serviceList){
+            sum += x.getPrice();
+        }
+        return sum;
     }
 
     public void setId(int id) {
@@ -53,5 +63,4 @@ public class Pet {
     public void setName(String name) {
         this.name = name;
     }
-
 }

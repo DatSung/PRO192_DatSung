@@ -2,7 +2,7 @@ package data;
 
 import java.util.Comparator;
 
-public class Service {
+public class Service implements Comparable<Service> {
     private int id;
     private String name;
     private int price;
@@ -50,5 +50,10 @@ public class Service {
     }
 
 
-
+    @Override
+    public int compareTo(Service o) {
+        if(id > o.getId()) return 1;
+        else if(id < o.getId()) return -1;
+        return 0;
+    }
 }
